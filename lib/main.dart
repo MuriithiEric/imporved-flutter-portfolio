@@ -32,7 +32,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Aditya R',
+      title: 'Eric Muriithi',
       themeMode: customTheme.currentTheme,
       theme: CustomTheme.lightTheme,
       darkTheme: CustomTheme.darkTheme,

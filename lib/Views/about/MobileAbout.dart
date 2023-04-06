@@ -25,8 +25,8 @@ class MobileAbout extends StatelessWidget {
               (_portfolio.aboutMe == null)
                   ? Center(child: CircularProgressIndicator())
                   : Text(
-                      _portfolio.aboutMe!,
-                      style: TextStyle(fontSize: 16),
+                      "Hi, I am a dart with flutter developer, currently part of the 1 million developers for Africa program, I currently teach a cohort of learners from 3 African countries, Kenya, Zambia, and SOuth Africa how to create mobile applications using dart with flutter. In addition to this, I am a web developer, developing web applications commercially for the last 3 years.",
+                      style: TextStyle(fontSize: 18),
                     )
             ],
           ),

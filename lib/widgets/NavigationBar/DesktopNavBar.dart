@@ -16,7 +16,7 @@ class DesktopNavBar extends StatelessWidget with PreferredSizeWidget {
       backgroundColor: Colors.transparent,
       titleSpacing: 80,
       title: Text(
-        'Aditya R',
+        'Eric Muriithi',
         style: GoogleFonts.parisienne(
             fontSize: 24, color: customTheme.navBarTextColor),
       ),

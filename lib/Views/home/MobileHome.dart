@@ -37,7 +37,7 @@ class MobileHome extends StatelessWidget {
                       text: "I'm ",
                       children: [
                         TextSpan(
-                            text: 'Aditya R',
+                            text: 'Eric Muriithi',
                             style: TextStyle(color: CustomColors.porsche))
                       ]),
                 ),

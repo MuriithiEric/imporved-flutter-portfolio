@@ -30,7 +30,7 @@ class _MobileViewState extends State<MobileView> {
         backgroundColor: Colors.transparent,
         centerTitle: true,
         title: Text(
-          'Aditya R',
+          'Eric Muriithi',
           style: GoogleFonts.parisienne(
               fontSize: 18, color: customTheme.navBarTextColor),
         ),

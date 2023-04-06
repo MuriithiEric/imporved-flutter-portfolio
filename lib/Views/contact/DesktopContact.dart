@@ -15,26 +15,27 @@ class DesktopContact extends StatelessWidget {
     List<ContactItem> contactItems = [
       ContactItem(
           title: 'Phone',
-          value: '+91 7200972008',
+          value: '+254700366137',
           iconData: Icons.phone,
           onClickContact: () {
-            launch('tel:+91720092008');
+            launch('tel:+254700366137');
           }),
       ContactItem(
           title: 'Mail',
-          value: 'aditya.r@email.com',
+          value: 'emuriithi42@gmail.com',
           iconData: Icons.mail,
           onClickContact: () {
-            launch("mailto:aditya.r@email.com?body=Hey,");
+            launch("mailto:emuriithi42@gmail.com?body=Hey,");
           }),
       ContactItem(
-          title: 'Discord',
-          value: 'Aditya#0039',
-          iconData: MdiIcons.discord,
+          title: 'LinkedIn',
+          value: 'eric-muriithi-48346117b/',
+          iconData: MdiIcons.linkedin,
           onClickContact: () {
-            Clipboard.setData(ClipboardData(text: "Aditya#0039"));
+            Clipboard.setData(ClipboardData(
+                text: "https://www.linkedin.com/in/eric-muriithi-48346117b/"));
             ScaffoldMessenger.of(context).showSnackBar(
-                SnackBar(content: Text('Discord Id copied to clipboard')));
+                SnackBar(content: Text('LinkedIn Id copied to clipboard')));
           }),
     ];
     return Column(
