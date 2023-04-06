@@ -80,6 +80,7 @@ class DesktopContact extends StatelessWidget {
                         curve: Curves.easeIn);
                   },
                   style: TextButton.styleFrom(
+                      // ignore: deprecated_member_use
                       primary: customTheme.outlinedButtonColor),
                   icon: Icon(Icons.arrow_upward),
                   label: Text('Back to Top'))

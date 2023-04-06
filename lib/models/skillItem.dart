@@ -9,11 +9,12 @@ class SkillItem {
         imageAsset: AssetImage('assets/icons/Flutter.png'),
         skillName: 'Flutter'),
     SkillItem(
-        imageAsset: AssetImage('assets/icons/web-dev.png'),
-        skillName: 'Web Development'),
+        imageAsset: AssetImage('assets/icons/Android.png'),
+        skillName: 'Android'),
     SkillItem(imageAsset: AssetImage('assets/icons/Git.png'), skillName: 'Git'),
     SkillItem(
-        imageAsset: AssetImage('assets/icons/dart.png'), skillName: 'Dart'),
+        imageAsset: AssetImage('assets/icons/Arduino.png'),
+        skillName: 'Arduino'),
   ];
   static const List<SkillItem> learningItems = [
     SkillItem(
@@ -28,14 +29,11 @@ class SkillItem {
         imageAsset: AssetImage('assets/icons/Figma.png'), skillName: 'Figma'),
   ];
   static const List<SkillItem> otherSkillsItems = [
-    SkillItem(
-        imageAsset: AssetImage('assets/icons/js.png'),
-        skillName: 'Java Script'),
+    SkillItem(imageAsset: AssetImage('assets/icons/C.png'), skillName: 'C'),
     SkillItem(imageAsset: AssetImage('assets/icons/Cpp.png'), skillName: 'C++'),
     SkillItem(
         imageAsset: AssetImage('assets/icons/Python.png'), skillName: 'Python'),
     SkillItem(
-        imageAsset: AssetImage('assets/icons/oop.jpg'),
-        skillName: 'Object Oriented Programming'),
+        imageAsset: AssetImage('assets/icons/Java.png'), skillName: 'Java'),
   ];
 }
